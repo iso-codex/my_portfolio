@@ -1,0 +1,21 @@
+import React from 'react';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import About from './components/About';
+import Resume from './components/Resume';
+import Portfolio from './components/Portfolio';
+import './App.css';
+
+function App() {
+  return (
+    <div className="app">
+      <Navbar />
+      <Hero />
+      <About />
+      <Resume />
+      <Portfolio />
+    </div>
+  );
+}
+
+export default App;
