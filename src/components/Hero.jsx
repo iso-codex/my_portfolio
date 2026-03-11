@@ -34,7 +34,7 @@ const Hero = () => {
                     <a href="https://github.com/iso-codex"><Github size={20} /></a>
                     <a href="https://www.linkedin.com/in/paa-kwesi-obu-simpson"><Linkedin size={20} /></a>
                     {/* <a href="#"><Twitter size={20} /></a> */}
-                    <a href="https://www.instagram.com/sniperssolutions/"><Instagram size={20} /></a>
+                    <a href="https://www.instagram.com/_.nousss/"><Instagram size={20} /></a>
                     {/* <a href="#"><Mail size={20} /></a> */}
                 </motion.div>
             </div>
