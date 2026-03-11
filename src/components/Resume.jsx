@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { BookOpen, Briefcase, Code, Heart, Monitor } from 'lucide-react';
+import { BookOpen, Briefcase, Code, Heart, Monitor, Award } from 'lucide-react';
 import './Resume.css';
 
 const Resume = () => {
@@ -28,7 +28,7 @@ const Resume = () => {
             role: 'Lead Software Engineer( Intern )',
             desc: 'Leading a team of 3 developers in building scalable Web-app solutions.'
         },
-       
+
     ];
 
     return (
@@ -103,7 +103,7 @@ const Resume = () => {
                                 <li>UI Automation</li>
                                 <li>Database Design</li>
                                 <li>Cloud Computing</li>
-                                
+
                             </ul>
                         </div>
 
@@ -115,6 +115,15 @@ const Resume = () => {
                                 <div className="hobby-item">Forex Trading</div>
                                 <div className="hobby-item">Gym</div>
                             </div>
+                        </div>
+
+                        <div className="resume-section">
+                            <h4 className="flex-title"><Award size={20} className="text-accent" /> Certifications</h4>
+                            <ul className="info-list">
+                                <li>CSD Certification | Ghana-India Kofi Annan Centre of Excellence in ICT</li>
+                                <li>DBC Certification | Ghana-India Kofi Annan Centre of Excellence in ICT</li>
+                                {/* Add more certifications here as needed */}
+                            </ul>
                         </div>
                     </div>
                 </div>

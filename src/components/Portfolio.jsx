@@ -6,47 +6,68 @@ import './Portfolio.css';
 const Portfolio = () => {
     const projects = [
         {
-            title: 'E-Commerce Platform',
+            title: 'Restuarant Menu System and Management',
             category: 'Full Stack',
-            description: 'A modern e-commerce platform built with Next.js, Stripe, and PostgreSQL.',
-            tech: ['Next.js', 'TypeScript', 'Stripe', 'PostgreSQL'],
-            image: 'https://images.unsplash.com/photo-1557821552-17105176677c?w=800&h=600&fit=crop'
+            description: 'A modern investing tracking platform built with React.js and Supabase.',
+            tech: ['React.js', 'TypeScript', 'TailwindCSS', 'Supabase'],
+            image: 'https://images.unsplash.com/photo-1636835369131-e79f1266b599?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+            liveLink: 'coralgardenswebsite.vercel.app', // <-- Place your actual site address here
+            githubLink: 'https://github.com/iso-codex/your-repo' // <-- Place your GitHub link here
         },
         {
-            title: 'Task Management App',
+            title: 'Auto Sales Company Management System',
             category: 'Web Application',
-            description: 'Real-time collaborative task management with drag-and-drop functionality.',
-            tech: ['React', 'Firebase', 'Tailwind CSS'],
-            image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=600&fit=crop'
+            description: 'A simple landing page for an auto sale company with customer email communication.',
+            tech: ['React', 'Email configuration', 'Tailwind CSS'],
+            image: 'https://images.unsplash.com/photo-1574023240744-64c47c8c0676?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+            liveLink: 'garagesys-cons.vercel.app', // <-- Place your actual site address here
+            githubLink: 'https://github.com/iso-codex/your-repo' // <-- Place your GitHub link here
         },
         {
-            title: 'AI Chat Interface',
-            category: 'AI Integration',
-            description: 'Intelligent chatbot interface with natural language processing capabilities.',
-            tech: ['React', 'OpenAI API', 'Node.js'],
-            image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop'
+            title: 'School Management System',
+            category: 'Web Application',
+            description: 'A system for handling all school operations as well as staff and student records.',
+            tech: ['React', 'Html','CSS','JavaScript', 'Supabase'],
+            image: 'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=1122&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+            liveLink: 'https://sms-zeta-eight.vercel.app/', // <-- Place your actual site address here
+            githubLink: 'https://github.com/iso-codex/your-repo' // <-- Place your GitHub link here
         },
         {
-            title: 'Analytics Dashboard',
+            title: 'Investment Managment System',
             category: 'Data Visualization',
             description: 'Interactive dashboard for real-time data analytics and reporting.',
-            tech: ['React', 'D3.js', 'Express', 'MongoDB'],
-            image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop'
+            tech: ['React', 'Javascript', 'Supabase'],
+            image: 'https://images.unsplash.com/photo-1707762890671-52ef6d6f51e7?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+            liveLink: 'https://zigma-crm.vercel.app/', // <-- Place your actual site address here
+            githubLink: 'https://github.com/iso-codex/your-repo' // <-- Place your GitHub link here
         },
-        {
-            title: 'Social Media Platform',
-            category: 'Full Stack',
-            description: 'Social networking platform with posts, comments, and real-time messaging.',
-            tech: ['React', 'Socket.io', 'Node.js', 'Redis'],
-            image: 'https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&h=600&fit=crop'
-        },
-        {
-            title: 'Fitness Tracker',
-            category: 'Mobile App',
-            description: 'Cross-platform fitness tracking app with workout plans and progress tracking.',
-            tech: ['React Native', 'Firebase', 'Redux'],
-            image: 'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800&h=600&fit=crop'
-        }
+        // {
+        //     title: 'Social Media Platform',
+        //     category: 'Full Stack',
+        //     description: 'Social networking platform with posts, comments, and real-time messaging.',
+        //     tech: ['React', 'Socket.io', 'Node.js', 'Redis'],
+        //     image: 'https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&h=600&fit=crop',
+        //     liveLink: 'https://your-site-url.com', // <-- Place your actual site address here
+        //     githubLink: 'https://github.com/iso-codex/your-repo' // <-- Place your GitHub link here
+        // },
+        // {
+        //     title: 'Fitness Tracker',
+        //     category: 'Mobile App',
+        //     description: 'Cross-platform fitness tracking app with workout plans and progress tracking.',
+        //     tech: ['React Native', 'Firebase', 'Redux'],
+        //     image: 'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800&h=600&fit=crop',
+        //     liveLink: 'https://your-site-url.com', // <-- Place your actual site address here
+        //     githubLink: 'https://github.com/iso-codex/your-repo' // <-- Place your GitHub link here
+        // },
+        // {
+        //     title: 'Fitness Tracker',
+        //     category: 'Mobile App',
+        //     description: 'Cross-platform fitness tracking app with workout plans and progress tracking.',
+        //     tech: ['React Native', 'Firebase', 'Redux'],
+        //     image: 'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800&h=600&fit=crop',
+        //     liveLink: 'https://your-site-url.com', // <-- Place your actual site address here
+        //     githubLink: 'https://github.com/iso-codex/your-repo' // <-- Place your GitHub link here
+        // }
     ];
 
     return (
@@ -69,10 +90,10 @@ const Portfolio = () => {
                                 <img src={project.image} alt={project.title} />
                                 <div className="project-overlay">
                                     <div className="project-links">
-                                        <a href="#" className="project-link">
+                                        <a href={project.githubLink || "https://github.com/iso-codex"} target="_blank" rel="noopener noreferrer" className="project-link">
                                             <Github size={20} />
                                         </a>
-                                        <a href="#" className="project-link">
+                                        <a href={project.liveLink || "#"} target="_blank" rel="noopener noreferrer" className="project-link">
                                             <ExternalLink size={20} />
                                         </a>
                                     </div>
