@@ -11,7 +11,7 @@ const Portfolio = () => {
             description: 'A modern investing tracking platform built with React.js and Supabase.',
             tech: ['React.js', 'TypeScript', 'TailwindCSS', 'Supabase'],
             image: 'https://images.unsplash.com/photo-1636835369131-e79f1266b599?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-            liveLink: 'coralgardenswebsite.vercel.app', // <-- Place your actual site address here
+            liveLink: 'https://coralgardenswebsite.vercel.app', // <-- Place your actual site address here
             githubLink: 'https://github.com/iso-codex/your-repo' // <-- Place your GitHub link here
         },
         {
@@ -20,7 +20,7 @@ const Portfolio = () => {
             description: 'A simple landing page for an auto sale company with customer email communication.',
             tech: ['React', 'Email configuration', 'Tailwind CSS'],
             image: 'https://images.unsplash.com/photo-1574023240744-64c47c8c0676?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-            liveLink: 'garagesys-cons.vercel.app', // <-- Place your actual site address here
+            liveLink: 'https://garagesys-cons.vercel.app', // <-- Place your actual site address here
             githubLink: 'https://github.com/iso-codex/your-repo' // <-- Place your GitHub link here
         },
         {
