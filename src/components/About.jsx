@@ -14,7 +14,7 @@ const About = () => {
                     className="about-image"
                 >
                     <div className="image-wrapper">
-                        <img src="/avatar.jpeg" alt="Jason Martin" />
+                        <img src="/ava.png" alt="Jason Martin" />
                         <div className="image-border"></div>
                     </div>
                 </motion.div>
